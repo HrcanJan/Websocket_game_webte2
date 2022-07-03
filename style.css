@@ -1,0 +1,76 @@
+body{
+    color: black;
+    height: 100%;
+    margin: 0 20px 20px;
+    font-size: 18px;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    box-shadow: 0.25rem .25rem rgba(0,0,0,.075)!important;
+}
+
+table{
+    width: 100%;
+    margin: 20px 20px 20px -10px;
+}
+td, th{
+    padding: 10px;
+}
+
+th {
+    background: #00a769;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #cecbd5;
+}
+
+tr:nth-child(odd) {
+    background: #f1e1e1;
+}
+
+button {
+    background-color: #00a769;
+    color: white;
+}
+
+form {
+    margin: 20px 20px 50px;
+    background-color: white;
+}
+
+.marginbottom{
+    margin-bottom: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+
+.box {
+    margin: 20px;
+}
+
+label {
+    display: inline-block;
+}
+
+pre{
+    display: none;
+}
+
+#php {
+    padding: 20px;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+input {
+    width: 270px;
+}
